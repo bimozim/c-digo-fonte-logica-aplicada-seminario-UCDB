@@ -27,4 +27,4 @@ for palavra in candidatas:
 # Identificar a mais próxima
 mais_proxima = min(distancias, key=distancias.get)
 
-print(f"\n✅ Resultado: '{mais_proxima}' está semanticamente mais próxima de '{referencia}'")
+print(f"\nResultado: '{mais_proxima}' está semanticamente mais próxima de '{referencia}'")
